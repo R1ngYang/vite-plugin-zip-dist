@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-zip-dist",
+  "version": "1.0.0",
+  "description": "zip out dir",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1ngYang/vite-plugin-zip-dist.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "zip",
+    "dist",
+    "outDir"
+  ],
+  "author": "stringyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/R1ngYang/vite-plugin-zip-dist/issues"
+  },
+  "homepage": "https://github.com/R1ngYang/vite-plugin-zip-dist#readme",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
